@@ -7,4 +7,4 @@ alias vgg='vg --suppressions=./.assets/readline.supp'
 # Add author info
 
 git config --global user.email "alexander.o.schenk@gmail.com"
-git config --global user.name "alx-sch"
+#git config --global user.name "alx-sch"
