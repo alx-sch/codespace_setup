@@ -27,3 +27,19 @@ Here's a sample configuration for `.devcontainer/devcontainer.json`, installing 
 }
 ```
 
+## 2. Set Up Aliases for Custom Shortcuts
+For custom commands and shortcuts, set up a `dotfiles` repository in your GitHub account (this very repository is a one!).
+In this repository, add a  `.bash_aliases` file for any command aliases you use frequently.   
+
+Here’s an example:    
+
+```bash
+# Alias definitions
+
+alias vg='valgrind --leak-check=full --show-leak-kinds=all --trace-children=yes --track-fds=yes'
+alias vgt='valgrind --tool=helgrind'
+alias vgg='vg --suppressions=./.assets/readline.supp'
+```
+
+
+
