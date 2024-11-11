@@ -41,5 +41,14 @@ alias vgt='valgrind --tool=helgrind'
 alias vgg='vg --suppressions=./.assets/readline.supp'
 ```
 
+Once you've created this file, go to  **Settings → Codespaces → Automatically Install Dotfiles** on GitHub and select the repository containing `.bash_aliases`.
+This will load your customizations each time you start a new Codespace.
+
+## 3. Finalize the Setup
+After you create a Codespace, run the following command in the terminal to reload your aliases and environment settings:  
+```bash
+source ~/.bashrc
+```
+
 
 
