@@ -5,7 +5,14 @@ Codespaces uses a "Visual Studio Code"-based interface and runs on an Ubuntu env
 
 Here’s a step-by-step guide to setting up Codespaces.
 
-## 1. Configure the Development Environment
+## 1. Get GitHub Pro Through 42
+
+While you can use Codespaces without a Pro account, having one provides more compute time and extended resources.
+If you're affiliated with 42, you can get GitHub Pro for free, which includes access to Codespaces with these enhanced resources.    
+
+Follow [this link](https://github-portal.42.fr/login) to get GitHub Pro.
+
+## 2. Configure the Development Environment
 
 ### Add a `.devcontainer` Folder
 
@@ -27,7 +34,7 @@ Here's a sample configuration for `.devcontainer/devcontainer.json`, installing 
 }
 ```
 
-## 2. Set Up Aliases for Custom Shortcuts
+## 3. Set Up Aliases for Custom Shortcuts
 For custom commands and shortcuts, set up a dedicated repository for dotfiles in your GitHub account (naming it `dotfiles` is default, but you can use any name. This very repository is a one!).
 In this repository, add a  `.bash_aliases` file for any command aliases you use frequently.   
 
@@ -44,13 +51,13 @@ alias vgg='vg --suppressions=./.assets/readline.supp'
 Once you've created this file, go to  "**Settings → Codespaces → Automatically Install Dotfiles**" on GitHub and select the repository containing `.bash_aliases`.
 This will load your customizations each time you start a new Codespace.
 
-## 3. Finalize the Setup
+## 4. Finalize the Setup
 After you create a Codespace, run the following command in the terminal to reload your aliases and environment settings:  
 ```bash
 source ~/.bashrc
 ```
 
-## 4. Synch Your Local VS Settings and Extensions
+## 5. Synch Your Local VS Settings and Extensions
 
 You can have all the extensions and settings you use locally in VS Code also available in your Codespace.
 
