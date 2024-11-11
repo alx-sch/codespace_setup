@@ -28,7 +28,7 @@ Here's a sample configuration for `.devcontainer/devcontainer.json`, installing 
 ```
 
 ## 2. Set Up Aliases for Custom Shortcuts
-For custom commands and shortcuts, set up a `dotfiles` repository in your GitHub account (this very repository is a one!).
+For custom commands and shortcuts, set up a dedicated repository for dotfiles in your GitHub account (naming it `dotfiles` is default, but you can use any name. This very repository is a one!).
 In this repository, add a  `.bash_aliases` file for any command aliases you use frequently.   
 
 Here’s an example:    
