@@ -41,7 +41,7 @@ alias vgt='valgrind --tool=helgrind'
 alias vgg='vg --suppressions=./.assets/readline.supp'
 ```
 
-Once you've created this file, go to  **Settings → Codespaces → Automatically Install Dotfiles** on GitHub and select the repository containing `.bash_aliases`.
+Once you've created this file, go to  "**Settings → Codespaces → Automatically Install Dotfiles**" on GitHub and select the repository containing `.bash_aliases`.
 This will load your customizations each time you start a new Codespace.
 
 ## 3. Finalize the Setup
@@ -50,5 +50,16 @@ After you create a Codespace, run the following command in the terminal to reloa
 source ~/.bashrc
 ```
 
+## 4. Synch Your Local VS Settings and Extensions
+
+You can have all the extensions and settings you use locally in VS Code also available in your Codespace.
+
+To get all the VS Code extensions and settings you have locally in your Codespace:
+
+- Log into your local VS Code with your GitHub account.
+- Enable "**Settings Sync**" in VS Code.
+- (Optional: You can ensure that your extensions and settings are synced across both your local VS Code and Codespace by logging into GitHub in both environments.)
+
+This will sync your extensions and settings across your local environment and any Codespace you create, giving you a consistent development experience.
 
 
