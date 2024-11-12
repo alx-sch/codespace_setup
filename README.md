@@ -16,7 +16,7 @@ Follow [this link](https://github-portal.42.fr/login) to get GitHub Pro.
 
 ### Add a `.devcontainer` Folder
 
-In your repository, create a folder named `.devcontainer`. This folder will hold configuration files for your Codespace, enabling you to automatically install essential tools every time you start a session.
+In your repository, create a folder named `.devcontainer`. This folder will hold configuration files for your Codespace, enabling you to automatically install essential or useful tools every time you start a session.
 
 Here's a sample configuration for `.devcontainer/devcontainer.json`, installing the tools [`valgrind`](https://github.com/ivosh/valgrind) and [`norminette`](https://github.com/42School/norminette):
 
