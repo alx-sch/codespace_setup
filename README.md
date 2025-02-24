@@ -56,15 +56,15 @@ This will load your customizations each time you start a new Codespace.
 
 ## 4. Synch Your Local VS Code Settings and Extensions
 
-You can have all the extensions and settings you use locally in VS Code also available in your Codespace.
+You can sync all the extensions and settings you use locally in VS Code with your Codespace.
 
-To get all the VS Code extensions and settings you have locally in your Codespace:
+To get your local VS Code extensions and settings with your Codespace:
 
 - Log into your local VS Code with your GitHub account.
 - Enable "**Settings Sync**" in VS Code.
-- (Optional: You can ensure that your extensions and settings are synced across both your local VS Code and Codespace by logging into GitHub in both environments.)
+- (Optional) Ensure that your extensions and settings are synced across both your local VS Code and Codespace by logging into GitHub in both environments.
 
-This will sync your extensions and settings across your local environment and any Codespace you create, giving you a consistent development experience.
+This will sync your extensions and settings across your local environment and any Codespace you create, ensuring a consistent development experience.
 
 ## 5. Finalize the Setup
 When creating a new Codespace that includes a `.devcontainer`, please wait until all post-create commands have finished executing.   
