@@ -22,15 +22,12 @@ Here's a sample configuration for `.devcontainer/devcontainer.json`, installing 
 
 ```json
 {
-	"name": "Codespace - 42 Setup", # Display name for your Codespace environment
-	"image": "mcr.microsoft.com/vscode/devcontainers/base:ubuntu-22.04",  # Base image for the environment, using a pre-configured Ubuntu
-	"postCreateCommand": "sudo apt-get update && sudo apt-get install -y valgrind && sudo apt-get install -y python3-pip && python3 -m pip install --upgrade pip setuptools norminette", # Install 'valgrind' and 'norminette' upon Codespace creation
+	"name": "Codespace - 42 Setup",
+	"image": "mcr.microsoft.com/vscode/devcontainers/base:ubuntu-22.04",
+	"postCreateCommand": "sudo apt-get update && sudo apt-get install -y valgrind && sudo apt-get install -y python3-pip && python3 -m pip install --upgrade pip setuptools norminette",
 	"customizations": {
 		"vscode": {
-			"extensions": [
-				"ms-python.python",
-				"ms-vscode.cpptools"
-			]
+			"extensions": ["ms-python.python"]
 		},
 		"settings": {
 			"python.pythonPath": "/usr/bin/python3"
